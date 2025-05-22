@@ -1,0 +1,12 @@
+.vs/
+.idea/
+.vscode/
+
+.DS_Store
+
+bin/
+obj/
+
+*.user
+*.user.prefs
+
