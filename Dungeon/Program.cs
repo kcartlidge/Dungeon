@@ -1,4 +1,6 @@
-﻿namespace Dungeon;
+﻿using Dungeon.Services;
+
+namespace Dungeon;
 
 class Program
 {
@@ -10,8 +12,12 @@ class Program
 
         try
         {
+            // Parse command line arguments.
             var config = Config.ParseArgs(args);
             config.Display();
+
+            // Generate grid.
+            var grid = Generator.Generate(config);
         }
         catch (Exception ex)
         {

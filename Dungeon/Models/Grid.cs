@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Text;
 
 namespace Dungeon.Models;
 
@@ -8,6 +9,7 @@ namespace Dungeon.Models;
 public class Grid
 {
     private readonly Cell[,] _cells;
+    private readonly List<Room> _rooms = new();
 
     /// <summary>
     /// Gets the width of the grid.
@@ -18,6 +20,11 @@ public class Grid
     /// Gets the height of the grid.
     /// </summary>
     public int Height { get; }
+
+    /// <summary>
+    /// Gets the list of rooms in the dungeon.
+    /// </summary>
+    public IReadOnlyList<Room> Rooms => _rooms;
 
     /// <summary>
     /// Initializes a new instance of the <see cref="Grid"/> class with the specified dimensions.
@@ -67,5 +74,24 @@ public class Grid
                 yield return _cells[x, y];
             }
         }
+    }
+
+    /// <summary>
+    /// Adds a room to the grid.
+    /// </summary>
+    /// <param name="room">The room to add.</param>
+    internal void AddRoom(Room room)
+    {
+        _rooms.Add(room);
+    }
+
+    /// <summary>
+    /// Updates the list of rooms in the dungeon.
+    /// </summary>
+    /// <param name="newRooms">The new list of rooms to replace the existing ones.</param>
+    internal void UpdateRooms(List<Room> newRooms)
+    {
+        _rooms.Clear();
+        _rooms.AddRange(newRooms);
     }
 }
