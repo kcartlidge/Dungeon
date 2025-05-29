@@ -33,6 +33,11 @@ public class Config
     public string Filename { get; set; } = "dungeon.svg";
 
     /// <summary>
+    /// Gets or sets the number of attempts to place rooms in the dungeon.
+    /// </summary>
+    public int NumRoomTries { get; set; } = 50;
+
+    /// <summary>
     /// Parses command line arguments to create a configuration instance.
     /// </summary>
     /// <param name="args">The command line arguments to parse.</param>
@@ -46,15 +51,18 @@ public class Config
             .SupportsOption<int>("width", "Width of the dungeon", 41)
             .SupportsOption<int>("height", "Height of the dungeon", 21)
             .SupportsOption<int>("cellsize", "Size of each cell in pixels", 32)
+            .SupportsOption<int>("roomtries", "Number of attempts to place rooms", 50)
             .RequiresOption<string>("filename", "Output filename", "dungeon.svg")
             .AddCustomValidator("width", (name, value) => ((int)value) < 13 ? new List<string> { "Width must be at least 13" } : new List<string>())
             .AddCustomValidator("height", (name, value) => ((int)value) < 13 ? new List<string> { "Height must be at least 13" } : new List<string>())
             .AddCustomValidator("cellsize", (name, value) => ((int)value) < 24 ? new List<string> { "Cell size must be at least 24 pixels" } : new List<string>())
+            .AddCustomValidator("roomtries", (name, value) => ((int)value) < 1 ? new List<string> { "Number of room tries must be at least 1" } : new List<string>())
             .AddExtraHelp("Restrictions:", new[]
             {
                 "Width must be at least 13",
                 "Height must be at least 13",
-                "Cell size must be at least 24 pixels"
+                "Cell size must be at least 24 pixels",
+                "Number of room tries must be at least 1"
             })
             .Help(2, "Usage:")
             .Parse();
@@ -74,6 +82,7 @@ public class Config
         config.Height = parser.GetOption<int>("height");
         config.CellSize = parser.GetOption<int>("cellsize");
         config.Filename = parser.GetOption<string>("filename");
+        config.NumRoomTries = parser.GetOption<int>("roomtries");
 
         return config;
     }
@@ -90,6 +99,7 @@ public class Config
         Console.WriteLine($"  Height    : {Height}");
         Console.WriteLine($"  Cell Size : {CellSize}");
         Console.WriteLine($"  Filename  : {Filename}");
+        Console.WriteLine($"  Room Tries: {NumRoomTries}");
         Console.WriteLine();
     }
 }

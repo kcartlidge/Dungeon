@@ -21,6 +21,12 @@ public class Cell
     public CellType Type { get; set; }
 
     /// <summary>
+    /// Gets or sets the region number this cell belongs to.
+    /// -1 indicates no region (unassigned).
+    /// </summary>
+    public int Region { get; set; } = -1;
+
+    /// <summary>
     /// Gets or sets the state of the exit to the north of this cell.
     /// </summary>
     public DoorState NorthExit { get; set; }
