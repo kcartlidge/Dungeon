@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Dungeon.Models;
 
 namespace Dungeon.Services;
@@ -41,31 +38,20 @@ public static class Generator
         }
 
         AddRooms(grid, config.NumRoomTries);
+        FillWithMazes(grid);
 
-        // Fill remaining space with mazes
-        for (int y = 1; y < grid.Height; y += 2)
-        {
-            for (int x = 1; x < grid.Width; x += 2)
-            {
-                var cell = grid.GetCell(x, y);
-                if (cell != null && cell.Type == CellType.Rock)
-                {
-                    GrowMaze(grid, x, y);
-                }
-            }
-        }
-
-        // Ensure every room is connected to the maze/corridor network (after maze generation)
         EnsureRoomConnectivity(grid);
-
         ConnectRegions(grid);
         RemoveDeadEnds(grid);
-        CleanupDoors(grid);
+
         EliminateRedundantEntrances(grid);
-        RemoveDeadEnds(grid); // Run again after eliminating redundant entrances
-        RenumberRooms(grid);
+        RemoveDeadEnds(grid);
+
         EliminateMultipleEntrancesFromSameCorridor(grid);
-        RemoveDeadEnds(grid); // Run again after eliminating more entrances
+        RemoveDeadEnds(grid);
+
+        AssignDoorsToRoomExits(grid);
+        RenumberRooms(grid);
 
         return grid;
     }
@@ -126,6 +112,22 @@ public static class Generator
                     }
                 }
                 roomNumber++;
+            }
+        }
+    }
+
+    private static void FillWithMazes(Grid grid)
+    {
+        // Fill remaining space with mazes
+        for (int y = 1; y < grid.Height; y += 2)
+        {
+            for (int x = 1; x < grid.Width; x += 2)
+            {
+                var cell = grid.GetCell(x, y);
+                if (cell != null && cell.Type == CellType.Rock)
+                {
+                    GrowMaze(grid, x, y);
+                }
             }
         }
     }
@@ -302,87 +304,6 @@ public static class Generator
                 }
             }
             connectors = newConnectors;
-        }
-    }
-
-    private static void CleanupDoors(Grid grid)
-    {
-        for (int y = 1; y < grid.Height - 1; y++)
-        {
-            for (int x = 1; x < grid.Width - 1; x++)
-            {
-                var cell = grid.GetCell(x, y);
-                if (cell == null || cell.Type != CellType.Corridor) continue;
-
-                var openSides = new Dictionary<(int dx, int dy), bool>();
-                foreach (var dir in Directions)
-                {
-                    var neighbor = grid.GetCell(x + dir.dx, y + dir.dy);
-                    openSides[dir] = neighbor != null && neighbor.Type != CellType.Rock;
-                }
-
-                // Check if this is a wide passage
-                bool isWidePassage = openSides.Count(s => s.Value) >= 3;
-
-                // Check if this is a room connection
-                bool isRoomConnection = false;
-                foreach (var dir in Directions)
-                {
-                    if (!openSides[dir]) continue;
-                    var neighbor = grid.GetCell(x + dir.dx, y + dir.dy);
-                    if (neighbor != null && neighbor.Type == CellType.Room)
-                    {
-                        isRoomConnection = true;
-                        break;
-                    }
-                }
-
-                // Place doors based on the cell's context
-                if (isRoomConnection)
-                {
-                    PlaceDoor(grid, x, y, true);
-                }
-                else if (isWidePassage)
-                {
-                    PlaceDoor(grid, x, y, false);
-                }
-            }
-        }
-    }
-
-    private static void PlaceDoor(Grid grid, int x, int y, bool higherChance)
-    {
-        var cell = grid.GetCell(x, y);
-        if (cell == null) return;
-
-        foreach (var dir in Directions)
-        {
-            var neighbor = grid.GetCell(x + dir.dx, y + dir.dy);
-            if (neighbor == null || neighbor.Type == CellType.Rock) continue;
-
-            // Higher chance for room connections
-            if (_random.Next(100) < (higherChance ? 80 : 20))
-            {
-                switch (dir)
-                {
-                    case (0, -1): // North
-                        cell.NorthExit = DoorState.Closed;
-                        neighbor.SouthExit = DoorState.Closed;
-                        break;
-                    case (1, 0): // East
-                        cell.EastExit = DoorState.Closed;
-                        neighbor.WestExit = DoorState.Closed;
-                        break;
-                    case (0, 1): // South
-                        cell.SouthExit = DoorState.Closed;
-                        neighbor.NorthExit = DoorState.Closed;
-                        break;
-                    case (-1, 0): // West
-                        cell.WestExit = DoorState.Closed;
-                        neighbor.EastExit = DoorState.Closed;
-                        break;
-                }
-            }
         }
     }
 
@@ -742,6 +663,51 @@ public static class Generator
                         c.Region = -1;
                     }
                 }
+            }
+        }
+    }
+
+    // Assign doors to room-corridor exits with 50% no door, 25% open, 25% closed
+    private static void AssignDoorsToRoomExits(Grid grid)
+    {
+        var random = _random;
+        foreach (var cell in grid.GetAllCells())
+        {
+            if (cell.Type != CellType.Room) continue;
+            int x = cell.X;
+            int y = cell.Y;
+
+            // Skip if cell already has a door
+            if (cell.HasExit) continue;
+
+            // For each direction, check if neighbor is a corridor
+            var directions = new[]
+            {
+                (dx: 0, dy: -1, setExit: new Action<Cell, DoorState>((c, s) => c.NorthExit = s), getExit: new Func<Cell, DoorState>(c => c.NorthExit),
+                    setNeighborExit: new Action<Cell, DoorState>((c, s) => c.SouthExit = s)),
+                (dx: 1, dy: 0, setExit: new Action<Cell, DoorState>((c, s) => c.EastExit = s), getExit: new Func<Cell, DoorState>(c => c.EastExit),
+                    setNeighborExit: new Action<Cell, DoorState>((c, s) => c.WestExit = s)),
+                (dx: 0, dy: 1, setExit: new Action<Cell, DoorState>((c, s) => c.SouthExit = s), getExit: new Func<Cell, DoorState>(c => c.SouthExit),
+                    setNeighborExit: new Action<Cell, DoorState>((c, s) => c.NorthExit = s)),
+                (dx: -1, dy: 0, setExit: new Action<Cell, DoorState>((c, s) => c.WestExit = s), getExit: new Func<Cell, DoorState>(c => c.WestExit),
+                    setNeighborExit: new Action<Cell, DoorState>((c, s) => c.EastExit = s)),
+            };
+            foreach (var dir in directions)
+            {
+                int nx = x + dir.dx;
+                int ny = y + dir.dy;
+                var neighbor = grid.GetCell(nx, ny);
+                if (neighbor == null || neighbor.Type != CellType.Corridor) continue;
+                // Only assign if not already set (avoid double assignment)
+                if (dir.getExit(cell) != DoorState.None) continue;
+                // 0-99: 0-49 = None, 50-74 = Open, 75-99 = Closed
+                int roll = random.Next(100);
+                DoorState state = DoorState.None;
+                if (roll >= 50 && roll < 75) state = DoorState.Open;
+                else if (roll >= 75) state = DoorState.Closed;
+                dir.setExit(cell, state);
+                dir.setNeighborExit(neighbor, state);
+                break; // Only add one door per cell
             }
         }
     }
