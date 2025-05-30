@@ -38,6 +38,11 @@ public class Config
     public int NumRoomTries { get; set; } = 50;
 
     /// <summary>
+    /// Gets or sets the text description of the number of attempts to place rooms in the dungeon.
+    /// </summary>
+    public string RoomTriesText { get; set; } = "default";
+
+    /// <summary>
     /// Parses command line arguments to create a configuration instance.
     /// </summary>
     /// <param name="args">The command line arguments to parse.</param>
@@ -45,24 +50,25 @@ public class Config
     /// <exception cref="ArgumentException">Thrown when invalid command line arguments are provided.</exception>
     public static Config ParseArgs(string[] args)
     {
+        var roomValues = new SortedList<string, double> { { "sparse", 0.25 }, { "default", 1 }, { "dense", 2 } };
         var config = new Config();
         var parser = new Parser(args)
             .SupportsOption<int>("seed", "Random seed for dungeon generation")
             .SupportsOption<int>("width", "Width of the dungeon", 41)
             .SupportsOption<int>("height", "Height of the dungeon", 21)
             .SupportsOption<int>("cellsize", "Size of each cell in pixels", 32)
-            .SupportsOption<int>("roomtries", "Number of attempts to place rooms", 50)
+            .SupportsOption<string>("rooms", "Rough room frequency", "default")
             .RequiresOption<string>("filename", "Output filename", "dungeon.svg")
             .AddCustomValidator("width", (name, value) => ((int)value) < 13 ? new List<string> { "Width must be at least 13" } : new List<string>())
             .AddCustomValidator("height", (name, value) => ((int)value) < 13 ? new List<string> { "Height must be at least 13" } : new List<string>())
             .AddCustomValidator("cellsize", (name, value) => ((int)value) < 24 ? new List<string> { "Cell size must be at least 24 pixels" } : new List<string>())
-            .AddCustomValidator("roomtries", (name, value) => ((int)value) < 1 ? new List<string> { "Number of room tries must be at least 1" } : new List<string>())
+            .AddCustomValidator("rooms", (name, value) => roomValues.ContainsKey(((string)value).ToLower()) ? new List<string>() : new List<string> { "Rooms must be one of " + string.Join(", ", roomValues.Keys) + $", but got `{value}`" })
             .AddExtraHelp("Restrictions:", new[]
             {
                 "Width must be at least 13",
                 "Height must be at least 13",
                 "Cell size must be at least 24 pixels",
-                "Number of room tries must be at least 1"
+                "Rooms must be one of " + string.Join(", ", roomValues.Keys)
             })
             .Help(2, "Usage:")
             .Parse();
@@ -82,7 +88,18 @@ public class Config
         config.Height = parser.GetOption<int>("height");
         config.CellSize = parser.GetOption<int>("cellsize");
         config.Filename = parser.GetOption<string>("filename");
-        config.NumRoomTries = parser.GetOption<int>("roomtries");
+
+        config.RoomTriesText = parser.GetOption<string>("rooms");
+        var roomAdjustment = roomValues[config.RoomTriesText];
+        config.NumRoomTries = (int)((config.Width + config.Height) * roomAdjustment);
+
+        // Ensure width and height are odd numbers
+        if (config.Width % 2 == 0 || config.Height % 2 == 0)
+        {
+            if (config.Width % 2 == 0) config.Width++;
+            if (config.Height % 2 == 0) config.Height++;
+            Console.WriteLine($"  Width and height are forced to be odd");
+        }
 
         return config;
     }
@@ -99,7 +116,7 @@ public class Config
         Console.WriteLine($"  Height    : {Height}");
         Console.WriteLine($"  Cell Size : {CellSize}");
         Console.WriteLine($"  Filename  : {Filename}");
-        Console.WriteLine($"  Room Tries: {NumRoomTries}");
+        Console.WriteLine($"  Rooms     : {RoomTriesText}");
         Console.WriteLine();
     }
 }

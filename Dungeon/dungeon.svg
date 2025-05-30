@@ -31,62 +31,62 @@
   <rect class="cell rock" x="0" y="684" />
   <rect class="cell rock" x="0" y="720" />
   <rect class="cell rock" x="36" y="0" />
-  <rect class="cell room" x="36" y="36" />
-  <rect class="cell room" x="36" y="72" />
-  <rect class="cell room" x="36" y="108" />
-  <rect class="cell room" x="36" y="144" />
-  <rect class="cell room" x="36" y="180" />
-  <rect class="cell room" x="36" y="216" />
+  <rect class="cell rock" x="36" y="36" />
+  <rect class="cell rock" x="36" y="72" />
+  <rect class="cell corridor" x="36" y="108" />
+  <rect class="cell corridor" x="36" y="144" />
+  <rect class="cell corridor" x="36" y="180" />
+  <rect class="cell corridor" x="36" y="216" />
   <rect class="cell room" x="36" y="252" />
-  <rect class="cell corridor" x="36" y="288" />
-  <rect class="cell corridor" x="36" y="324" />
-  <rect class="cell rock" x="36" y="360" />
-  <rect class="cell rock" x="36" y="396" />
+  <rect class="cell room" x="36" y="288" />
+  <rect class="cell room" x="36" y="324" />
+  <rect class="cell room" x="36" y="360" />
+  <rect class="cell room" x="36" y="396" />
   <rect class="cell rock" x="36" y="432" />
-  <rect class="cell corridor" x="36" y="468" />
-  <rect class="cell corridor" x="36" y="504" />
-  <rect class="cell room" x="36" y="540" />
-  <rect class="cell room" x="36" y="576" />
-  <rect class="cell room" x="36" y="612" />
-  <rect class="cell room" x="36" y="648" />
-  <rect class="cell room" x="36" y="684" />
+  <rect class="cell rock" x="36" y="468" />
+  <rect class="cell rock" x="36" y="504" />
+  <rect class="cell rock" x="36" y="540" />
+  <rect class="cell rock" x="36" y="576" />
+  <rect class="cell rock" x="36" y="612" />
+  <rect class="cell rock" x="36" y="648" />
+  <rect class="cell rock" x="36" y="684" />
   <rect class="cell rock" x="36" y="720" />
   <rect class="cell rock" x="72" y="0" />
-  <rect class="cell room" x="72" y="36" />
-  <rect class="cell room" x="72" y="72" />
-  <rect class="cell room" x="72" y="108" />
-  <rect class="cell room" x="72" y="144" />
-  <rect class="cell room" x="72" y="180" />
-  <rect class="cell room" x="72" y="216" />
+  <rect class="cell rock" x="72" y="36" />
+  <rect class="cell rock" x="72" y="72" />
+  <rect class="cell corridor" x="72" y="108" />
+  <rect class="cell rock" x="72" y="144" />
+  <rect class="cell rock" x="72" y="180" />
+  <rect class="cell rock" x="72" y="216" />
   <rect class="cell room" x="72" y="252" />
-  <rect class="cell rock" x="72" y="288" />
-  <rect class="cell corridor" x="72" y="324" />
-  <rect class="cell rock" x="72" y="360" />
-  <rect class="cell rock" x="72" y="396" />
+  <rect class="cell room" x="72" y="288" />
+  <rect class="cell room" x="72" y="324" />
+  <rect class="cell room" x="72" y="360" />
+  <rect class="cell room" x="72" y="396" />
   <rect class="cell rock" x="72" y="432" />
-  <rect class="cell corridor" x="72" y="468" />
+  <rect class="cell rock" x="72" y="468" />
   <rect class="cell rock" x="72" y="504" />
-  <rect class="cell room" x="72" y="540" />
-  <rect class="cell room" x="72" y="576" />
-  <rect class="cell room" x="72" y="612" />
-  <rect class="cell room" x="72" y="648" />
-  <rect class="cell room" x="72" y="684" />
+  <rect class="cell rock" x="72" y="540" />
+  <rect class="cell rock" x="72" y="576" />
+  <rect class="cell rock" x="72" y="612" />
+  <rect class="cell rock" x="72" y="648" />
+  <rect class="cell rock" x="72" y="684" />
   <rect class="cell rock" x="72" y="720" />
   <rect class="cell rock" x="108" y="0" />
-  <rect class="cell room" x="108" y="36" />
-  <rect class="cell room" x="108" y="72" />
-  <rect class="cell room" x="108" y="108" />
-  <rect class="cell room" x="108" y="144" />
-  <rect class="cell room" x="108" y="180" />
-  <rect class="cell room" x="108" y="216" />
+  <rect class="cell rock" x="108" y="36" />
+  <rect class="cell rock" x="108" y="72" />
+  <rect class="cell corridor" x="108" y="108" />
+  <rect class="cell rock" x="108" y="144" />
+  <rect class="cell rock" x="108" y="180" />
+  <rect class="cell rock" x="108" y="216" />
   <rect class="cell room" x="108" y="252" />
-  <rect class="cell rock" x="108" y="288" />
-  <rect class="cell corridor" x="108" y="324" />
-  <rect class="cell corridor" x="108" y="360" />
-  <rect class="cell corridor" x="108" y="396" />
-  <rect class="cell corridor" x="108" y="432" />
-  <rect class="cell corridor" x="108" y="468" />
-  <rect class="cell rock" x="108" y="504" />
+  <rect class="cell room" x="108" y="288" />
+  <rect class="cell room" x="108" y="324" />
+  <rect class="cell room" x="108" y="360" />
+  <rect class="cell room" x="108" y="396" />
+  <rect class="cell rock" x="108" y="432" />
+  <rect class="cell room" x="108" y="468" />
+  <rect class="cell room" x="108" y="504" />
   <rect class="cell room" x="108" y="540" />
   <rect class="cell room" x="108" y="576" />
   <rect class="cell room" x="108" y="612" />
@@ -94,217 +94,219 @@
   <rect class="cell room" x="108" y="684" />
   <rect class="cell rock" x="108" y="720" />
   <rect class="cell rock" x="144" y="0" />
-  <rect class="cell room" x="144" y="36" />
-  <rect class="cell room" x="144" y="72" />
-  <rect class="cell room" x="144" y="108" />
-  <rect class="cell room" x="144" y="144" />
-  <rect class="cell room" x="144" y="180" />
-  <rect class="cell room" x="144" y="216" />
+  <rect class="cell rock" x="144" y="36" />
+  <rect class="cell rock" x="144" y="72" />
+  <rect class="cell corridor" x="144" y="108" />
+  <rect class="cell rock" x="144" y="144" />
+  <rect class="cell rock" x="144" y="180" />
+  <rect class="cell rock" x="144" y="216" />
   <rect class="cell room" x="144" y="252" />
-  <rect class="cell rock" x="144" y="288" />
-  <rect class="cell rock" x="144" y="324" />
-  <rect class="cell rock" x="144" y="360" />
-  <rect class="cell rock" x="144" y="396" />
+  <rect class="cell room" x="144" y="288" />
+  <rect class="cell room" x="144" y="324" />
+  <rect class="cell room" x="144" y="360" />
+  <rect class="cell room" x="144" y="396" />
   <rect class="cell rock" x="144" y="432" />
-  <rect class="cell corridor" x="144" y="468" />
-  <rect class="cell rock" x="144" y="504" />
-  <rect class="cell rock" x="144" y="540" />
-  <rect class="cell rock" x="144" y="576" />
-  <rect class="cell rock" x="144" y="612" />
-  <rect class="cell rock" x="144" y="648" />
-  <rect class="cell rock" x="144" y="684" />
+  <rect class="cell room" x="144" y="468" />
+  <rect class="cell room" x="144" y="504" />
+  <rect class="cell room" x="144" y="540" />
+  <rect class="cell room" x="144" y="576" />
+  <rect class="cell room" x="144" y="612" />
+  <rect class="cell room" x="144" y="648" />
+  <rect class="cell room" x="144" y="684" />
   <rect class="cell rock" x="144" y="720" />
   <rect class="cell rock" x="180" y="0" />
-  <rect class="cell room" x="180" y="36" />
-  <rect class="cell room" x="180" y="72" />
-  <rect class="cell room" x="180" y="108" />
-  <rect class="cell room" x="180" y="144" />
-  <rect class="cell room" x="180" y="180" />
-  <rect class="cell room" x="180" y="216" />
+  <rect class="cell corridor" x="180" y="36" />
+  <rect class="cell corridor" x="180" y="72" />
+  <rect class="cell corridor" x="180" y="108" />
+  <rect class="cell rock" x="180" y="144" />
+  <rect class="cell rock" x="180" y="180" />
+  <rect class="cell rock" x="180" y="216" />
   <rect class="cell room" x="180" y="252" />
-  <rect class="cell rock" x="180" y="288" />
-  <rect class="cell rock" x="180" y="324" />
-  <rect class="cell rock" x="180" y="360" />
-  <rect class="cell rock" x="180" y="396" />
+  <rect class="cell room" x="180" y="288" />
+  <rect class="cell room" x="180" y="324" />
+  <rect class="cell room" x="180" y="360" />
+  <rect class="cell room" x="180" y="396" />
   <rect class="cell rock" x="180" y="432" />
-  <rect class="cell corridor" x="180" y="468" />
-  <rect class="cell corridor" x="180" y="504" />
-  <rect class="cell corridor" x="180" y="540" />
-  <rect class="cell corridor" x="180" y="576" />
-  <rect class="cell corridor" x="180" y="612" />
-  <rect class="cell corridor" x="180" y="648" />
-  <rect class="cell corridor" x="180" y="684" />
+  <rect class="cell room" x="180" y="468" />
+  <rect class="cell room" x="180" y="504" />
+  <rect class="cell room" x="180" y="540" />
+  <rect class="cell room" x="180" y="576" />
+  <rect class="cell room" x="180" y="612" />
+  <rect class="cell room" x="180" y="648" />
+  <rect class="cell room" x="180" y="684" />
   <rect class="cell rock" x="180" y="720" />
   <rect class="cell rock" x="216" y="0" />
-  <rect class="cell rock" x="216" y="36" />
+  <rect class="cell corridor" x="216" y="36" />
   <rect class="cell rock" x="216" y="72" />
   <rect class="cell rock" x="216" y="108" />
   <rect class="cell rock" x="216" y="144" />
   <rect class="cell rock" x="216" y="180" />
   <rect class="cell rock" x="216" y="216" />
-  <rect class="cell corridor" x="216" y="252" />
+  <rect class="cell rock" x="216" y="252" />
   <rect class="cell rock" x="216" y="288" />
   <rect class="cell rock" x="216" y="324" />
   <rect class="cell rock" x="216" y="360" />
   <rect class="cell rock" x="216" y="396" />
   <rect class="cell rock" x="216" y="432" />
-  <rect class="cell rock" x="216" y="468" />
-  <rect class="cell rock" x="216" y="504" />
-  <rect class="cell rock" x="216" y="540" />
-  <rect class="cell rock" x="216" y="576" />
-  <rect class="cell rock" x="216" y="612" />
-  <rect class="cell rock" x="216" y="648" />
-  <rect class="cell corridor" x="216" y="684" />
+  <rect class="cell room" x="216" y="468" />
+  <rect class="cell room" x="216" y="504" />
+  <rect class="cell room" x="216" y="540" />
+  <rect class="cell room" x="216" y="576" />
+  <rect class="cell room" x="216" y="612" />
+  <rect class="cell room" x="216" y="648" />
+  <rect class="cell room" x="216" y="684" />
   <rect class="cell rock" x="216" y="720" />
   <rect class="cell rock" x="252" y="0" />
   <rect class="cell room" x="252" y="36" />
+  <line class="door closed" x1="261" y1="45" x2="261" y2="63" />
   <rect class="cell room" x="252" y="72" />
   <rect class="cell room" x="252" y="108" />
-  <rect class="cell rock" x="252" y="144" />
-  <rect class="cell corridor" x="252" y="180" />
-  <rect class="cell corridor" x="252" y="216" />
-  <rect class="cell corridor" x="252" y="252" />
-  <rect class="cell corridor" x="252" y="288" />
+  <rect class="cell room" x="252" y="144" />
+  <rect class="cell room" x="252" y="180" />
+  <rect class="cell room" x="252" y="216" />
+  <rect class="cell room" x="252" y="252" />
+  <rect class="cell room" x="252" y="288" />
   <rect class="cell room" x="252" y="324" />
   <rect class="cell room" x="252" y="360" />
   <rect class="cell room" x="252" y="396" />
-  <rect class="cell room" x="252" y="432" />
+  <rect class="cell rock" x="252" y="432" />
   <rect class="cell room" x="252" y="468" />
   <rect class="cell room" x="252" y="504" />
   <rect class="cell room" x="252" y="540" />
-  <rect class="cell rock" x="252" y="576" />
-  <rect class="cell rock" x="252" y="612" />
-  <rect class="cell rock" x="252" y="648" />
-  <rect class="cell corridor" x="252" y="684" />
+  <rect class="cell room" x="252" y="576" />
+  <rect class="cell room" x="252" y="612" />
+  <rect class="cell room" x="252" y="648" />
+  <rect class="cell room" x="252" y="684" />
   <rect class="cell rock" x="252" y="720" />
   <rect class="cell rock" x="288" y="0" />
   <rect class="cell room" x="288" y="36" />
   <rect class="cell room" x="288" y="72" />
   <rect class="cell room" x="288" y="108" />
-  <rect class="cell rock" x="288" y="144" />
-  <rect class="cell corridor" x="288" y="180" />
-  <rect class="cell rock" x="288" y="216" />
-  <rect class="cell rock" x="288" y="252" />
-  <rect class="cell rock" x="288" y="288" />
+  <rect class="cell room" x="288" y="144" />
+  <rect class="cell room" x="288" y="180" />
+  <rect class="cell room" x="288" y="216" />
+  <rect class="cell room" x="288" y="252" />
+  <rect class="cell room" x="288" y="288" />
   <rect class="cell room" x="288" y="324" />
   <rect class="cell room" x="288" y="360" />
   <rect class="cell room" x="288" y="396" />
-  <rect class="cell room" x="288" y="432" />
+  <rect class="cell rock" x="288" y="432" />
   <rect class="cell room" x="288" y="468" />
   <rect class="cell room" x="288" y="504" />
   <rect class="cell room" x="288" y="540" />
-  <rect class="cell rock" x="288" y="576" />
-  <rect class="cell rock" x="288" y="612" />
-  <rect class="cell rock" x="288" y="648" />
-  <rect class="cell corridor" x="288" y="684" />
+  <rect class="cell room" x="288" y="576" />
+  <rect class="cell room" x="288" y="612" />
+  <rect class="cell room" x="288" y="648" />
+  <rect class="cell room" x="288" y="684" />
   <rect class="cell rock" x="288" y="720" />
   <rect class="cell rock" x="324" y="0" />
   <rect class="cell room" x="324" y="36" />
   <rect class="cell room" x="324" y="72" />
   <rect class="cell room" x="324" y="108" />
-  <rect class="cell corridor" x="324" y="144" />
-  <rect class="cell corridor" x="324" y="180" />
-  <rect class="cell corridor" x="324" y="216" />
-  <rect class="cell corridor" x="324" y="252" />
-  <rect class="cell rock" x="324" y="288" />
+  <rect class="cell room" x="324" y="144" />
+  <rect class="cell room" x="324" y="180" />
+  <rect class="cell room" x="324" y="216" />
+  <rect class="cell room" x="324" y="252" />
+  <rect class="cell room" x="324" y="288" />
   <rect class="cell room" x="324" y="324" />
   <rect class="cell room" x="324" y="360" />
   <rect class="cell room" x="324" y="396" />
-  <rect class="cell room" x="324" y="432" />
+  <rect class="cell corridor" x="324" y="432" />
   <rect class="cell room" x="324" y="468" />
   <rect class="cell room" x="324" y="504" />
   <rect class="cell room" x="324" y="540" />
-  <rect class="cell corridor" x="324" y="576" />
-  <rect class="cell corridor" x="324" y="612" />
-  <rect class="cell rock" x="324" y="648" />
-  <rect class="cell corridor" x="324" y="684" />
+  <rect class="cell room" x="324" y="576" />
+  <rect class="cell room" x="324" y="612" />
+  <rect class="cell room" x="324" y="648" />
+  <rect class="cell room" x="324" y="684" />
   <rect class="cell rock" x="324" y="720" />
   <rect class="cell rock" x="360" y="0" />
-  <rect class="cell rock" x="360" y="36" />
-  <rect class="cell rock" x="360" y="72" />
-  <rect class="cell rock" x="360" y="108" />
-  <rect class="cell rock" x="360" y="144" />
-  <rect class="cell rock" x="360" y="180" />
-  <rect class="cell rock" x="360" y="216" />
-  <rect class="cell corridor" x="360" y="252" />
-  <rect class="cell rock" x="360" y="288" />
+  <rect class="cell room" x="360" y="36" />
+  <rect class="cell room" x="360" y="72" />
+  <rect class="cell room" x="360" y="108" />
+  <rect class="cell room" x="360" y="144" />
+  <rect class="cell room" x="360" y="180" />
+  <rect class="cell room" x="360" y="216" />
+  <rect class="cell room" x="360" y="252" />
+  <rect class="cell room" x="360" y="288" />
   <rect class="cell room" x="360" y="324" />
   <rect class="cell room" x="360" y="360" />
   <rect class="cell room" x="360" y="396" />
-  <rect class="cell room" x="360" y="432" />
+  <rect class="cell rock" x="360" y="432" />
   <rect class="cell room" x="360" y="468" />
   <rect class="cell room" x="360" y="504" />
   <rect class="cell room" x="360" y="540" />
-  <rect class="cell rock" x="360" y="576" />
-  <rect class="cell corridor" x="360" y="612" />
-  <rect class="cell rock" x="360" y="648" />
-  <rect class="cell corridor" x="360" y="684" />
+  <rect class="cell room" x="360" y="576" />
+  <rect class="cell room" x="360" y="612" />
+  <rect class="cell room" x="360" y="648" />
+  <rect class="cell room" x="360" y="684" />
   <rect class="cell rock" x="360" y="720" />
   <rect class="cell rock" x="396" y="0" />
-  <rect class="cell rock" x="396" y="36" />
-  <rect class="cell rock" x="396" y="72" />
-  <rect class="cell rock" x="396" y="108" />
-  <rect class="cell rock" x="396" y="144" />
-  <rect class="cell rock" x="396" y="180" />
-  <rect class="cell rock" x="396" y="216" />
-  <rect class="cell corridor" x="396" y="252" />
-  <rect class="cell rock" x="396" y="288" />
+  <rect class="cell room" x="396" y="36" />
+  <rect class="cell room" x="396" y="72" />
+  <rect class="cell room" x="396" y="108" />
+  <rect class="cell room" x="396" y="144" />
+  <rect class="cell room" x="396" y="180" />
+  <rect class="cell room" x="396" y="216" />
+  <rect class="cell room" x="396" y="252" />
+  <rect class="cell room" x="396" y="288" />
   <rect class="cell room" x="396" y="324" />
   <rect class="cell room" x="396" y="360" />
   <rect class="cell room" x="396" y="396" />
-  <rect class="cell room" x="396" y="432" />
+  <rect class="cell rock" x="396" y="432" />
   <rect class="cell room" x="396" y="468" />
   <rect class="cell room" x="396" y="504" />
   <rect class="cell room" x="396" y="540" />
-  <rect class="cell rock" x="396" y="576" />
-  <rect class="cell corridor" x="396" y="612" />
-  <rect class="cell corridor" x="396" y="648" />
-  <rect class="cell corridor" x="396" y="684" />
+  <rect class="cell room" x="396" y="576" />
+  <rect class="cell room" x="396" y="612" />
+  <rect class="cell room" x="396" y="648" />
+  <rect class="cell room" x="396" y="684" />
   <rect class="cell rock" x="396" y="720" />
   <rect class="cell rock" x="432" y="0" />
-  <rect class="cell rock" x="432" y="36" />
-  <rect class="cell rock" x="432" y="72" />
-  <rect class="cell rock" x="432" y="108" />
-  <rect class="cell rock" x="432" y="144" />
-  <rect class="cell rock" x="432" y="180" />
-  <rect class="cell rock" x="432" y="216" />
-  <rect class="cell corridor" x="432" y="252" />
-  <rect class="cell rock" x="432" y="288" />
-  <rect class="cell rock" x="432" y="324" />
-  <rect class="cell rock" x="432" y="360" />
-  <rect class="cell rock" x="432" y="396" />
+  <rect class="cell room" x="432" y="36" />
+  <rect class="cell room" x="432" y="72" />
+  <rect class="cell room" x="432" y="108" />
+  <rect class="cell room" x="432" y="144" />
+  <rect class="cell room" x="432" y="180" />
+  <rect class="cell room" x="432" y="216" />
+  <rect class="cell room" x="432" y="252" />
+  <rect class="cell room" x="432" y="288" />
+  <rect class="cell room" x="432" y="324" />
+  <rect class="cell room" x="432" y="360" />
+  <rect class="cell room" x="432" y="396" />
   <rect class="cell rock" x="432" y="432" />
-  <rect class="cell rock" x="432" y="468" />
-  <rect class="cell rock" x="432" y="504" />
-  <rect class="cell rock" x="432" y="540" />
-  <rect class="cell rock" x="432" y="576" />
-  <rect class="cell rock" x="432" y="612" />
-  <rect class="cell rock" x="432" y="648" />
-  <rect class="cell corridor" x="432" y="684" />
+  <rect class="cell room" x="432" y="468" />
+  <rect class="cell room" x="432" y="504" />
+  <rect class="cell room" x="432" y="540" />
+  <rect class="cell room" x="432" y="576" />
+  <rect class="cell room" x="432" y="612" />
+  <rect class="cell room" x="432" y="648" />
+  <rect class="cell room" x="432" y="684" />
   <rect class="cell rock" x="432" y="720" />
   <rect class="cell rock" x="468" y="0" />
-  <rect class="cell corridor" x="468" y="36" />
-  <rect class="cell corridor" x="468" y="72" />
-  <rect class="cell corridor" x="468" y="108" />
-  <rect class="cell corridor" x="468" y="144" />
-  <rect class="cell corridor" x="468" y="180" />
-  <rect class="cell corridor" x="468" y="216" />
-  <rect class="cell corridor" x="468" y="252" />
-  <rect class="cell corridor" x="468" y="288" />
-  <rect class="cell corridor" x="468" y="324" />
-  <rect class="cell corridor" x="468" y="360" />
-  <rect class="cell corridor" x="468" y="396" />
-  <rect class="cell corridor" x="468" y="432" />
-  <rect class="cell corridor" x="468" y="468" />
-  <rect class="cell corridor" x="468" y="504" />
+  <rect class="cell room" x="468" y="36" />
+  <rect class="cell room" x="468" y="72" />
+  <rect class="cell room" x="468" y="108" />
+  <rect class="cell room" x="468" y="144" />
+  <rect class="cell room" x="468" y="180" />
+  <rect class="cell room" x="468" y="216" />
+  <rect class="cell room" x="468" y="252" />
+  <rect class="cell room" x="468" y="288" />
+  <rect class="cell room" x="468" y="324" />
+  <rect class="cell room" x="468" y="360" />
+  <rect class="cell room" x="468" y="396" />
+  <rect class="cell rock" x="468" y="432" />
+  <rect class="cell room" x="468" y="468" />
+  <rect class="cell room" x="468" y="504" />
   <rect class="cell room" x="468" y="540" />
   <rect class="cell room" x="468" y="576" />
   <rect class="cell room" x="468" y="612" />
-  <rect class="cell rock" x="468" y="648" />
-  <rect class="cell corridor" x="468" y="684" />
+  <line class="door closed" x1="495" y1="621" x2="495" y2="639" />
+  <rect class="cell room" x="468" y="648" />
+  <rect class="cell room" x="468" y="684" />
   <rect class="cell rock" x="468" y="720" />
   <rect class="cell rock" x="504" y="0" />
-  <rect class="cell corridor" x="504" y="36" />
+  <rect class="cell rock" x="504" y="36" />
   <rect class="cell rock" x="504" y="72" />
   <rect class="cell rock" x="504" y="108" />
   <rect class="cell rock" x="504" y="144" />
@@ -314,26 +316,25 @@
   <rect class="cell rock" x="504" y="288" />
   <rect class="cell rock" x="504" y="324" />
   <rect class="cell rock" x="504" y="360" />
-  <rect class="cell rock" x="504" y="396" />
-  <rect class="cell corridor" x="504" y="432" />
+  <rect class="cell corridor" x="504" y="396" />
+  <rect class="cell rock" x="504" y="432" />
   <rect class="cell rock" x="504" y="468" />
   <rect class="cell rock" x="504" y="504" />
-  <rect class="cell room" x="504" y="540" />
-  <rect class="cell room" x="504" y="576" />
-  <rect class="cell room" x="504" y="612" />
+  <rect class="cell rock" x="504" y="540" />
+  <rect class="cell rock" x="504" y="576" />
+  <rect class="cell corridor" x="504" y="612" />
   <rect class="cell rock" x="504" y="648" />
-  <rect class="cell corridor" x="504" y="684" />
+  <rect class="cell rock" x="504" y="684" />
   <rect class="cell rock" x="504" y="720" />
   <rect class="cell rock" x="540" y="0" />
-  <rect class="cell corridor" x="540" y="36" />
+  <rect class="cell rock" x="540" y="36" />
   <rect class="cell rock" x="540" y="72" />
-  <rect class="cell room" x="540" y="108" />
-  <rect class="cell room" x="540" y="144" />
-  <rect class="cell room" x="540" y="180" />
-  <rect class="cell room" x="540" y="216" />
+  <rect class="cell rock" x="540" y="108" />
+  <rect class="cell rock" x="540" y="144" />
+  <rect class="cell rock" x="540" y="180" />
+  <rect class="cell rock" x="540" y="216" />
   <rect class="cell room" x="540" y="252" />
-  <line class="door open" x1="549" y1="279" x2="567" y2="279" />
-  <rect class="cell corridor" x="540" y="288" />
+  <rect class="cell room" x="540" y="288" />
   <rect class="cell room" x="540" y="324" />
   <rect class="cell room" x="540" y="360" />
   <rect class="cell room" x="540" y="396" />
@@ -343,18 +344,19 @@
   <rect class="cell room" x="540" y="540" />
   <rect class="cell room" x="540" y="576" />
   <rect class="cell room" x="540" y="612" />
+  <line class="door open" x1="549" y1="621" x2="549" y2="639" />
   <rect class="cell rock" x="540" y="648" />
-  <rect class="cell corridor" x="540" y="684" />
+  <rect class="cell rock" x="540" y="684" />
   <rect class="cell rock" x="540" y="720" />
   <rect class="cell rock" x="576" y="0" />
-  <rect class="cell corridor" x="576" y="36" />
+  <rect class="cell rock" x="576" y="36" />
   <rect class="cell rock" x="576" y="72" />
-  <rect class="cell room" x="576" y="108" />
-  <rect class="cell room" x="576" y="144" />
-  <rect class="cell room" x="576" y="180" />
-  <rect class="cell room" x="576" y="216" />
+  <rect class="cell rock" x="576" y="108" />
+  <rect class="cell rock" x="576" y="144" />
+  <rect class="cell rock" x="576" y="180" />
+  <rect class="cell rock" x="576" y="216" />
   <rect class="cell room" x="576" y="252" />
-  <rect class="cell rock" x="576" y="288" />
+  <rect class="cell room" x="576" y="288" />
   <rect class="cell room" x="576" y="324" />
   <rect class="cell room" x="576" y="360" />
   <rect class="cell room" x="576" y="396" />
@@ -365,17 +367,18 @@
   <rect class="cell room" x="576" y="576" />
   <rect class="cell room" x="576" y="612" />
   <rect class="cell rock" x="576" y="648" />
-  <rect class="cell corridor" x="576" y="684" />
+  <rect class="cell rock" x="576" y="684" />
   <rect class="cell rock" x="576" y="720" />
   <rect class="cell rock" x="612" y="0" />
   <rect class="cell corridor" x="612" y="36" />
-  <rect class="cell rock" x="612" y="72" />
+  <rect class="cell corridor" x="612" y="72" />
   <rect class="cell room" x="612" y="108" />
+  <line class="door closed" x1="621" y1="117" x2="639" y2="117" />
   <rect class="cell room" x="612" y="144" />
   <rect class="cell room" x="612" y="180" />
-  <rect class="cell room" x="612" y="216" />
+  <rect class="cell rock" x="612" y="216" />
   <rect class="cell room" x="612" y="252" />
-  <rect class="cell rock" x="612" y="288" />
+  <rect class="cell room" x="612" y="288" />
   <rect class="cell room" x="612" y="324" />
   <rect class="cell room" x="612" y="360" />
   <rect class="cell room" x="612" y="396" />
@@ -391,14 +394,13 @@
   <rect class="cell rock" x="612" y="720" />
   <rect class="cell rock" x="648" y="0" />
   <rect class="cell corridor" x="648" y="36" />
-  <rect class="cell corridor" x="648" y="72" />
+  <rect class="cell rock" x="648" y="72" />
   <rect class="cell room" x="648" y="108" />
-  <line class="door open" x1="657" y1="117" x2="675" y2="117" />
   <rect class="cell room" x="648" y="144" />
   <rect class="cell room" x="648" y="180" />
-  <rect class="cell room" x="648" y="216" />
+  <rect class="cell rock" x="648" y="216" />
   <rect class="cell room" x="648" y="252" />
-  <rect class="cell rock" x="648" y="288" />
+  <rect class="cell room" x="648" y="288" />
   <rect class="cell room" x="648" y="324" />
   <rect class="cell room" x="648" y="360" />
   <rect class="cell room" x="648" y="396" />
@@ -412,131 +414,132 @@
   <rect class="cell corridor" x="648" y="684" />
   <rect class="cell rock" x="648" y="720" />
   <rect class="cell rock" x="684" y="0" />
-  <rect class="cell rock" x="684" y="36" />
+  <rect class="cell corridor" x="684" y="36" />
   <rect class="cell rock" x="684" y="72" />
   <rect class="cell room" x="684" y="108" />
   <rect class="cell room" x="684" y="144" />
   <rect class="cell room" x="684" y="180" />
-  <rect class="cell room" x="684" y="216" />
+  <line class="door closed" x1="693" y1="207" x2="711" y2="207" />
+  <rect class="cell corridor" x="684" y="216" />
   <rect class="cell room" x="684" y="252" />
-  <rect class="cell rock" x="684" y="288" />
+  <line class="door open" x1="693" y1="261" x2="711" y2="261" />
+  <rect class="cell room" x="684" y="288" />
   <rect class="cell room" x="684" y="324" />
   <rect class="cell room" x="684" y="360" />
   <rect class="cell room" x="684" y="396" />
   <rect class="cell room" x="684" y="432" />
   <rect class="cell room" x="684" y="468" />
-  <rect class="cell corridor" x="684" y="504" />
-  <rect class="cell corridor" x="684" y="540" />
+  <rect class="cell rock" x="684" y="504" />
+  <rect class="cell rock" x="684" y="540" />
   <rect class="cell rock" x="684" y="576" />
   <rect class="cell rock" x="684" y="612" />
   <rect class="cell rock" x="684" y="648" />
   <rect class="cell corridor" x="684" y="684" />
   <rect class="cell rock" x="684" y="720" />
   <rect class="cell rock" x="720" y="0" />
-  <rect class="cell rock" x="720" y="36" />
+  <rect class="cell corridor" x="720" y="36" />
   <rect class="cell rock" x="720" y="72" />
-  <rect class="cell room" x="720" y="108" />
-  <rect class="cell room" x="720" y="144" />
-  <rect class="cell room" x="720" y="180" />
-  <rect class="cell room" x="720" y="216" />
+  <rect class="cell rock" x="720" y="108" />
+  <rect class="cell rock" x="720" y="144" />
+  <rect class="cell rock" x="720" y="180" />
+  <rect class="cell rock" x="720" y="216" />
   <rect class="cell room" x="720" y="252" />
-  <rect class="cell rock" x="720" y="288" />
-  <rect class="cell rock" x="720" y="324" />
-  <rect class="cell rock" x="720" y="360" />
-  <rect class="cell rock" x="720" y="396" />
-  <rect class="cell rock" x="720" y="432" />
-  <rect class="cell rock" x="720" y="468" />
+  <rect class="cell room" x="720" y="288" />
+  <rect class="cell room" x="720" y="324" />
+  <rect class="cell room" x="720" y="360" />
+  <rect class="cell room" x="720" y="396" />
+  <rect class="cell room" x="720" y="432" />
+  <rect class="cell room" x="720" y="468" />
   <rect class="cell rock" x="720" y="504" />
-  <rect class="cell corridor" x="720" y="540" />
+  <rect class="cell rock" x="720" y="540" />
   <rect class="cell rock" x="720" y="576" />
   <rect class="cell rock" x="720" y="612" />
   <rect class="cell rock" x="720" y="648" />
   <rect class="cell corridor" x="720" y="684" />
   <rect class="cell rock" x="720" y="720" />
   <rect class="cell rock" x="756" y="0" />
-  <rect class="cell rock" x="756" y="36" />
-  <rect class="cell rock" x="756" y="72" />
+  <rect class="cell room" x="756" y="36" />
+  <rect class="cell room" x="756" y="72" />
   <rect class="cell room" x="756" y="108" />
   <rect class="cell room" x="756" y="144" />
   <rect class="cell room" x="756" y="180" />
-  <rect class="cell room" x="756" y="216" />
+  <rect class="cell rock" x="756" y="216" />
   <rect class="cell room" x="756" y="252" />
-  <rect class="cell rock" x="756" y="288" />
-  <rect class="cell corridor" x="756" y="324" />
-  <rect class="cell corridor" x="756" y="360" />
-  <rect class="cell corridor" x="756" y="396" />
-  <rect class="cell corridor" x="756" y="432" />
-  <rect class="cell corridor" x="756" y="468" />
-  <rect class="cell corridor" x="756" y="504" />
-  <rect class="cell corridor" x="756" y="540" />
-  <rect class="cell corridor" x="756" y="576" />
-  <rect class="cell corridor" x="756" y="612" />
-  <rect class="cell corridor" x="756" y="648" />
+  <rect class="cell room" x="756" y="288" />
+  <rect class="cell room" x="756" y="324" />
+  <rect class="cell room" x="756" y="360" />
+  <rect class="cell room" x="756" y="396" />
+  <rect class="cell room" x="756" y="432" />
+  <rect class="cell room" x="756" y="468" />
+  <rect class="cell rock" x="756" y="504" />
+  <rect class="cell rock" x="756" y="540" />
+  <rect class="cell rock" x="756" y="576" />
+  <rect class="cell rock" x="756" y="612" />
+  <rect class="cell rock" x="756" y="648" />
   <rect class="cell corridor" x="756" y="684" />
   <rect class="cell rock" x="756" y="720" />
   <rect class="cell rock" x="792" y="0" />
-  <rect class="cell rock" x="792" y="36" />
-  <rect class="cell rock" x="792" y="72" />
+  <rect class="cell room" x="792" y="36" />
+  <rect class="cell room" x="792" y="72" />
   <rect class="cell room" x="792" y="108" />
   <rect class="cell room" x="792" y="144" />
   <rect class="cell room" x="792" y="180" />
-  <rect class="cell room" x="792" y="216" />
+  <rect class="cell rock" x="792" y="216" />
   <rect class="cell room" x="792" y="252" />
-  <rect class="cell rock" x="792" y="288" />
-  <rect class="cell corridor" x="792" y="324" />
-  <rect class="cell rock" x="792" y="360" />
-  <rect class="cell rock" x="792" y="396" />
-  <rect class="cell rock" x="792" y="432" />
-  <rect class="cell rock" x="792" y="468" />
+  <rect class="cell room" x="792" y="288" />
+  <rect class="cell room" x="792" y="324" />
+  <rect class="cell room" x="792" y="360" />
+  <rect class="cell room" x="792" y="396" />
+  <rect class="cell room" x="792" y="432" />
+  <rect class="cell room" x="792" y="468" />
   <rect class="cell rock" x="792" y="504" />
   <rect class="cell rock" x="792" y="540" />
   <rect class="cell rock" x="792" y="576" />
   <rect class="cell rock" x="792" y="612" />
   <rect class="cell rock" x="792" y="648" />
-  <rect class="cell rock" x="792" y="684" />
+  <rect class="cell corridor" x="792" y="684" />
   <rect class="cell rock" x="792" y="720" />
   <rect class="cell rock" x="828" y="0" />
-  <rect class="cell rock" x="828" y="36" />
-  <rect class="cell rock" x="828" y="72" />
+  <rect class="cell room" x="828" y="36" />
+  <rect class="cell room" x="828" y="72" />
   <rect class="cell room" x="828" y="108" />
   <rect class="cell room" x="828" y="144" />
   <rect class="cell room" x="828" y="180" />
-  <rect class="cell room" x="828" y="216" />
+  <rect class="cell rock" x="828" y="216" />
   <rect class="cell room" x="828" y="252" />
-  <line class="door open" x1="855" y1="261" x2="855" y2="279" />
-  <rect class="cell rock" x="828" y="288" />
-  <rect class="cell corridor" x="828" y="324" />
-  <rect class="cell corridor" x="828" y="360" />
-  <rect class="cell corridor" x="828" y="396" />
-  <rect class="cell corridor" x="828" y="432" />
-  <rect class="cell corridor" x="828" y="468" />
+  <rect class="cell room" x="828" y="288" />
+  <rect class="cell room" x="828" y="324" />
+  <rect class="cell room" x="828" y="360" />
+  <rect class="cell room" x="828" y="396" />
+  <rect class="cell room" x="828" y="432" />
+  <rect class="cell room" x="828" y="468" />
   <rect class="cell rock" x="828" y="504" />
   <rect class="cell room" x="828" y="540" />
   <rect class="cell room" x="828" y="576" />
   <rect class="cell room" x="828" y="612" />
-  <rect class="cell room" x="828" y="648" />
-  <rect class="cell room" x="828" y="684" />
+  <rect class="cell corridor" x="828" y="648" />
+  <rect class="cell corridor" x="828" y="684" />
   <rect class="cell rock" x="828" y="720" />
   <rect class="cell rock" x="864" y="0" />
-  <rect class="cell rock" x="864" y="36" />
-  <rect class="cell rock" x="864" y="72" />
-  <rect class="cell rock" x="864" y="108" />
-  <rect class="cell rock" x="864" y="144" />
-  <rect class="cell rock" x="864" y="180" />
+  <rect class="cell room" x="864" y="36" />
+  <rect class="cell room" x="864" y="72" />
+  <rect class="cell room" x="864" y="108" />
+  <rect class="cell room" x="864" y="144" />
+  <rect class="cell room" x="864" y="180" />
   <rect class="cell rock" x="864" y="216" />
-  <rect class="cell corridor" x="864" y="252" />
-  <rect class="cell rock" x="864" y="288" />
-  <rect class="cell rock" x="864" y="324" />
-  <rect class="cell rock" x="864" y="360" />
-  <rect class="cell rock" x="864" y="396" />
-  <rect class="cell rock" x="864" y="432" />
-  <rect class="cell corridor" x="864" y="468" />
-  <rect class="cell corridor" x="864" y="504" />
+  <rect class="cell room" x="864" y="252" />
+  <rect class="cell room" x="864" y="288" />
+  <rect class="cell room" x="864" y="324" />
+  <rect class="cell room" x="864" y="360" />
+  <rect class="cell room" x="864" y="396" />
+  <rect class="cell room" x="864" y="432" />
+  <rect class="cell room" x="864" y="468" />
+  <rect class="cell rock" x="864" y="504" />
   <rect class="cell room" x="864" y="540" />
   <rect class="cell room" x="864" y="576" />
   <rect class="cell room" x="864" y="612" />
-  <rect class="cell room" x="864" y="648" />
-  <rect class="cell room" x="864" y="684" />
+  <rect class="cell rock" x="864" y="648" />
+  <rect class="cell corridor" x="864" y="684" />
   <rect class="cell rock" x="864" y="720" />
   <rect class="cell rock" x="900" y="0" />
   <rect class="cell room" x="900" y="36" />
@@ -544,55 +547,55 @@
   <rect class="cell room" x="900" y="108" />
   <rect class="cell room" x="900" y="144" />
   <rect class="cell room" x="900" y="180" />
-  <rect class="cell room" x="900" y="216" />
+  <rect class="cell rock" x="900" y="216" />
   <rect class="cell room" x="900" y="252" />
-  <line class="door open" x1="909" y1="261" x2="909" y2="279" />
-  <rect class="cell rock" x="900" y="288" />
+  <rect class="cell room" x="900" y="288" />
   <rect class="cell room" x="900" y="324" />
   <rect class="cell room" x="900" y="360" />
+  <line class="door closed" x1="927" y1="369" x2="927" y2="387" />
   <rect class="cell room" x="900" y="396" />
-  <rect class="cell corridor" x="900" y="432" />
-  <rect class="cell corridor" x="900" y="468" />
+  <rect class="cell room" x="900" y="432" />
+  <rect class="cell room" x="900" y="468" />
   <rect class="cell rock" x="900" y="504" />
   <rect class="cell room" x="900" y="540" />
   <rect class="cell room" x="900" y="576" />
   <rect class="cell room" x="900" y="612" />
-  <rect class="cell room" x="900" y="648" />
-  <rect class="cell room" x="900" y="684" />
+  <rect class="cell rock" x="900" y="648" />
+  <rect class="cell corridor" x="900" y="684" />
   <rect class="cell rock" x="900" y="720" />
   <rect class="cell rock" x="936" y="0" />
-  <rect class="cell room" x="936" y="36" />
-  <rect class="cell room" x="936" y="72" />
-  <rect class="cell room" x="936" y="108" />
-  <rect class="cell room" x="936" y="144" />
-  <rect class="cell room" x="936" y="180" />
-  <rect class="cell room" x="936" y="216" />
-  <rect class="cell room" x="936" y="252" />
+  <rect class="cell corridor" x="936" y="36" />
+  <rect class="cell rock" x="936" y="72" />
+  <rect class="cell rock" x="936" y="108" />
+  <rect class="cell rock" x="936" y="144" />
+  <rect class="cell rock" x="936" y="180" />
+  <rect class="cell rock" x="936" y="216" />
+  <rect class="cell rock" x="936" y="252" />
   <rect class="cell rock" x="936" y="288" />
-  <rect class="cell room" x="936" y="324" />
-  <rect class="cell room" x="936" y="360" />
-  <rect class="cell room" x="936" y="396" />
+  <rect class="cell rock" x="936" y="324" />
+  <rect class="cell corridor" x="936" y="360" />
+  <rect class="cell rock" x="936" y="396" />
   <rect class="cell rock" x="936" y="432" />
   <rect class="cell rock" x="936" y="468" />
   <rect class="cell rock" x="936" y="504" />
   <rect class="cell rock" x="936" y="540" />
-  <rect class="cell rock" x="936" y="576" />
+  <rect class="cell corridor" x="936" y="576" />
   <rect class="cell rock" x="936" y="612" />
   <rect class="cell rock" x="936" y="648" />
-  <rect class="cell rock" x="936" y="684" />
+  <rect class="cell corridor" x="936" y="684" />
   <rect class="cell rock" x="936" y="720" />
   <rect class="cell rock" x="972" y="0" />
-  <rect class="cell room" x="972" y="36" />
-  <rect class="cell room" x="972" y="72" />
-  <rect class="cell room" x="972" y="108" />
-  <rect class="cell room" x="972" y="144" />
-  <rect class="cell room" x="972" y="180" />
-  <rect class="cell room" x="972" y="216" />
-  <rect class="cell room" x="972" y="252" />
+  <rect class="cell corridor" x="972" y="36" />
+  <rect class="cell corridor" x="972" y="72" />
+  <rect class="cell corridor" x="972" y="108" />
+  <rect class="cell rock" x="972" y="144" />
+  <rect class="cell rock" x="972" y="180" />
+  <rect class="cell rock" x="972" y="216" />
+  <rect class="cell rock" x="972" y="252" />
   <rect class="cell rock" x="972" y="288" />
-  <rect class="cell room" x="972" y="324" />
-  <rect class="cell room" x="972" y="360" />
-  <rect class="cell room" x="972" y="396" />
+  <rect class="cell rock" x="972" y="324" />
+  <rect class="cell corridor" x="972" y="360" />
+  <rect class="cell corridor" x="972" y="396" />
   <rect class="cell rock" x="972" y="432" />
   <rect class="cell room" x="972" y="468" />
   <rect class="cell room" x="972" y="504" />
@@ -600,20 +603,20 @@
   <rect class="cell room" x="972" y="576" />
   <rect class="cell room" x="972" y="612" />
   <rect class="cell rock" x="972" y="648" />
-  <rect class="cell rock" x="972" y="684" />
+  <rect class="cell corridor" x="972" y="684" />
   <rect class="cell rock" x="972" y="720" />
   <rect class="cell rock" x="1008" y="0" />
-  <rect class="cell room" x="1008" y="36" />
-  <rect class="cell room" x="1008" y="72" />
-  <rect class="cell room" x="1008" y="108" />
-  <rect class="cell room" x="1008" y="144" />
-  <rect class="cell room" x="1008" y="180" />
-  <rect class="cell room" x="1008" y="216" />
-  <rect class="cell room" x="1008" y="252" />
+  <rect class="cell rock" x="1008" y="36" />
+  <rect class="cell rock" x="1008" y="72" />
+  <rect class="cell corridor" x="1008" y="108" />
+  <rect class="cell rock" x="1008" y="144" />
+  <rect class="cell rock" x="1008" y="180" />
+  <rect class="cell rock" x="1008" y="216" />
+  <rect class="cell rock" x="1008" y="252" />
   <rect class="cell rock" x="1008" y="288" />
   <rect class="cell rock" x="1008" y="324" />
   <rect class="cell rock" x="1008" y="360" />
-  <rect class="cell rock" x="1008" y="396" />
+  <rect class="cell corridor" x="1008" y="396" />
   <rect class="cell rock" x="1008" y="432" />
   <rect class="cell room" x="1008" y="468" />
   <rect class="cell room" x="1008" y="504" />
@@ -621,16 +624,16 @@
   <rect class="cell room" x="1008" y="576" />
   <rect class="cell room" x="1008" y="612" />
   <rect class="cell rock" x="1008" y="648" />
-  <rect class="cell rock" x="1008" y="684" />
+  <rect class="cell corridor" x="1008" y="684" />
   <rect class="cell rock" x="1008" y="720" />
   <rect class="cell rock" x="1044" y="0" />
-  <rect class="cell room" x="1044" y="36" />
-  <rect class="cell room" x="1044" y="72" />
-  <rect class="cell room" x="1044" y="108" />
-  <rect class="cell room" x="1044" y="144" />
-  <rect class="cell room" x="1044" y="180" />
-  <rect class="cell room" x="1044" y="216" />
-  <rect class="cell room" x="1044" y="252" />
+  <rect class="cell rock" x="1044" y="36" />
+  <rect class="cell rock" x="1044" y="72" />
+  <rect class="cell corridor" x="1044" y="108" />
+  <rect class="cell corridor" x="1044" y="144" />
+  <rect class="cell corridor" x="1044" y="180" />
+  <rect class="cell corridor" x="1044" y="216" />
+  <rect class="cell corridor" x="1044" y="252" />
   <rect class="cell corridor" x="1044" y="288" />
   <rect class="cell corridor" x="1044" y="324" />
   <rect class="cell corridor" x="1044" y="360" />
@@ -642,16 +645,16 @@
   <rect class="cell room" x="1044" y="576" />
   <rect class="cell room" x="1044" y="612" />
   <rect class="cell rock" x="1044" y="648" />
-  <rect class="cell rock" x="1044" y="684" />
+  <rect class="cell corridor" x="1044" y="684" />
   <rect class="cell rock" x="1044" y="720" />
   <rect class="cell rock" x="1080" y="0" />
-  <rect class="cell room" x="1080" y="36" />
-  <rect class="cell room" x="1080" y="72" />
-  <rect class="cell room" x="1080" y="108" />
-  <rect class="cell room" x="1080" y="144" />
-  <rect class="cell room" x="1080" y="180" />
-  <rect class="cell room" x="1080" y="216" />
-  <rect class="cell room" x="1080" y="252" />
+  <rect class="cell rock" x="1080" y="36" />
+  <rect class="cell rock" x="1080" y="72" />
+  <rect class="cell corridor" x="1080" y="108" />
+  <rect class="cell rock" x="1080" y="144" />
+  <rect class="cell rock" x="1080" y="180" />
+  <rect class="cell rock" x="1080" y="216" />
+  <rect class="cell rock" x="1080" y="252" />
   <rect class="cell rock" x="1080" y="288" />
   <rect class="cell rock" x="1080" y="324" />
   <rect class="cell rock" x="1080" y="360" />
@@ -663,67 +666,67 @@
   <rect class="cell room" x="1080" y="576" />
   <rect class="cell room" x="1080" y="612" />
   <rect class="cell rock" x="1080" y="648" />
-  <rect class="cell rock" x="1080" y="684" />
+  <rect class="cell corridor" x="1080" y="684" />
   <rect class="cell rock" x="1080" y="720" />
   <rect class="cell rock" x="1116" y="0" />
-  <rect class="cell room" x="1116" y="36" />
-  <rect class="cell room" x="1116" y="72" />
-  <rect class="cell room" x="1116" y="108" />
-  <rect class="cell room" x="1116" y="144" />
+  <rect class="cell rock" x="1116" y="36" />
+  <rect class="cell rock" x="1116" y="72" />
+  <rect class="cell corridor" x="1116" y="108" />
+  <rect class="cell rock" x="1116" y="144" />
   <rect class="cell room" x="1116" y="180" />
   <rect class="cell room" x="1116" y="216" />
   <rect class="cell room" x="1116" y="252" />
-  <rect class="cell rock" x="1116" y="288" />
-  <rect class="cell rock" x="1116" y="324" />
+  <rect class="cell room" x="1116" y="288" />
+  <rect class="cell room" x="1116" y="324" />
   <rect class="cell rock" x="1116" y="360" />
   <rect class="cell corridor" x="1116" y="396" />
-  <rect class="cell rock" x="1116" y="432" />
+  <rect class="cell corridor" x="1116" y="432" />
   <rect class="cell room" x="1116" y="468" />
   <rect class="cell room" x="1116" y="504" />
   <rect class="cell room" x="1116" y="540" />
   <rect class="cell room" x="1116" y="576" />
   <rect class="cell room" x="1116" y="612" />
   <rect class="cell rock" x="1116" y="648" />
-  <rect class="cell rock" x="1116" y="684" />
+  <rect class="cell corridor" x="1116" y="684" />
   <rect class="cell rock" x="1116" y="720" />
   <rect class="cell rock" x="1152" y="0" />
-  <rect class="cell corridor" x="1152" y="36" />
+  <rect class="cell rock" x="1152" y="36" />
   <rect class="cell rock" x="1152" y="72" />
-  <rect class="cell rock" x="1152" y="108" />
+  <rect class="cell corridor" x="1152" y="108" />
   <rect class="cell rock" x="1152" y="144" />
-  <rect class="cell rock" x="1152" y="180" />
-  <rect class="cell rock" x="1152" y="216" />
-  <rect class="cell rock" x="1152" y="252" />
-  <rect class="cell rock" x="1152" y="288" />
-  <rect class="cell rock" x="1152" y="324" />
+  <rect class="cell room" x="1152" y="180" />
+  <rect class="cell room" x="1152" y="216" />
+  <rect class="cell room" x="1152" y="252" />
+  <rect class="cell room" x="1152" y="288" />
+  <rect class="cell room" x="1152" y="324" />
   <rect class="cell rock" x="1152" y="360" />
-  <rect class="cell corridor" x="1152" y="396" />
+  <rect class="cell rock" x="1152" y="396" />
   <rect class="cell rock" x="1152" y="432" />
-  <rect class="cell rock" x="1152" y="468" />
+  <rect class="cell corridor" x="1152" y="468" />
   <rect class="cell rock" x="1152" y="504" />
   <rect class="cell rock" x="1152" y="540" />
-  <rect class="cell corridor" x="1152" y="576" />
+  <rect class="cell rock" x="1152" y="576" />
   <rect class="cell rock" x="1152" y="612" />
   <rect class="cell rock" x="1152" y="648" />
-  <rect class="cell rock" x="1152" y="684" />
+  <rect class="cell corridor" x="1152" y="684" />
   <rect class="cell rock" x="1152" y="720" />
   <rect class="cell rock" x="1188" y="0" />
-  <rect class="cell corridor" x="1188" y="36" />
-  <rect class="cell corridor" x="1188" y="72" />
+  <rect class="cell rock" x="1188" y="36" />
+  <rect class="cell rock" x="1188" y="72" />
   <rect class="cell corridor" x="1188" y="108" />
   <rect class="cell corridor" x="1188" y="144" />
   <rect class="cell room" x="1188" y="180" />
-  <line class="door closed" x1="1197" y1="189" x2="1215" y2="189" />
   <rect class="cell room" x="1188" y="216" />
   <rect class="cell room" x="1188" y="252" />
-  <rect class="cell rock" x="1188" y="288" />
-  <rect class="cell rock" x="1188" y="324" />
+  <rect class="cell room" x="1188" y="288" />
+  <rect class="cell room" x="1188" y="324" />
   <rect class="cell rock" x="1188" y="360" />
-  <rect class="cell corridor" x="1188" y="396" />
-  <rect class="cell rock" x="1188" y="432" />
-  <rect class="cell rock" x="1188" y="468" />
-  <rect class="cell rock" x="1188" y="504" />
-  <rect class="cell rock" x="1188" y="540" />
+  <rect class="cell room" x="1188" y="396" />
+  <rect class="cell room" x="1188" y="432" />
+  <rect class="cell room" x="1188" y="468" />
+  <line class="door open" x1="1197" y1="477" x2="1197" y2="495" />
+  <rect class="cell room" x="1188" y="504" />
+  <rect class="cell room" x="1188" y="540" />
   <rect class="cell corridor" x="1188" y="576" />
   <rect class="cell corridor" x="1188" y="612" />
   <rect class="cell corridor" x="1188" y="648" />
@@ -737,15 +740,14 @@
   <rect class="cell room" x="1224" y="180" />
   <rect class="cell room" x="1224" y="216" />
   <rect class="cell room" x="1224" y="252" />
-  <line class="door closed" x1="1233" y1="279" x2="1251" y2="279" />
-  <rect class="cell corridor" x="1224" y="288" />
-  <rect class="cell corridor" x="1224" y="324" />
+  <rect class="cell room" x="1224" y="288" />
+  <rect class="cell room" x="1224" y="324" />
   <rect class="cell rock" x="1224" y="360" />
-  <rect class="cell corridor" x="1224" y="396" />
-  <rect class="cell rock" x="1224" y="432" />
-  <rect class="cell rock" x="1224" y="468" />
-  <rect class="cell rock" x="1224" y="504" />
-  <rect class="cell rock" x="1224" y="540" />
+  <rect class="cell room" x="1224" y="396" />
+  <rect class="cell room" x="1224" y="432" />
+  <rect class="cell room" x="1224" y="468" />
+  <rect class="cell room" x="1224" y="504" />
+  <rect class="cell room" x="1224" y="540" />
   <rect class="cell rock" x="1224" y="576" />
   <rect class="cell rock" x="1224" y="612" />
   <rect class="cell rock" x="1224" y="648" />
@@ -759,17 +761,17 @@
   <rect class="cell room" x="1260" y="180" />
   <rect class="cell room" x="1260" y="216" />
   <rect class="cell room" x="1260" y="252" />
-  <rect class="cell rock" x="1260" y="288" />
-  <rect class="cell corridor" x="1260" y="324" />
-  <rect class="cell corridor" x="1260" y="360" />
-  <rect class="cell corridor" x="1260" y="396" />
-  <rect class="cell corridor" x="1260" y="432" />
-  <rect class="cell corridor" x="1260" y="468" />
-  <rect class="cell corridor" x="1260" y="504" />
-  <rect class="cell corridor" x="1260" y="540" />
-  <rect class="cell corridor" x="1260" y="576" />
-  <rect class="cell corridor" x="1260" y="612" />
-  <rect class="cell corridor" x="1260" y="648" />
+  <rect class="cell room" x="1260" y="288" />
+  <rect class="cell room" x="1260" y="324" />
+  <rect class="cell rock" x="1260" y="360" />
+  <rect class="cell room" x="1260" y="396" />
+  <rect class="cell room" x="1260" y="432" />
+  <rect class="cell room" x="1260" y="468" />
+  <rect class="cell room" x="1260" y="504" />
+  <rect class="cell room" x="1260" y="540" />
+  <rect class="cell rock" x="1260" y="576" />
+  <rect class="cell rock" x="1260" y="612" />
+  <rect class="cell rock" x="1260" y="648" />
   <rect class="cell corridor" x="1260" y="684" />
   <rect class="cell rock" x="1260" y="720" />
   <rect class="cell rock" x="1296" y="0" />
@@ -777,11 +779,11 @@
   <rect class="cell rock" x="1296" y="72" />
   <rect class="cell corridor" x="1296" y="108" />
   <rect class="cell rock" x="1296" y="144" />
-  <rect class="cell rock" x="1296" y="180" />
-  <rect class="cell rock" x="1296" y="216" />
-  <rect class="cell rock" x="1296" y="252" />
-  <rect class="cell rock" x="1296" y="288" />
-  <rect class="cell rock" x="1296" y="324" />
+  <rect class="cell room" x="1296" y="180" />
+  <rect class="cell room" x="1296" y="216" />
+  <rect class="cell room" x="1296" y="252" />
+  <rect class="cell room" x="1296" y="288" />
+  <rect class="cell room" x="1296" y="324" />
   <rect class="cell rock" x="1296" y="360" />
   <rect class="cell rock" x="1296" y="396" />
   <rect class="cell rock" x="1296" y="432" />
@@ -794,19 +796,19 @@
   <rect class="cell corridor" x="1296" y="684" />
   <rect class="cell rock" x="1296" y="720" />
   <rect class="cell rock" x="1332" y="0" />
-  <rect class="cell rock" x="1332" y="36" />
-  <rect class="cell rock" x="1332" y="72" />
+  <rect class="cell corridor" x="1332" y="36" />
+  <rect class="cell corridor" x="1332" y="72" />
   <rect class="cell corridor" x="1332" y="108" />
   <rect class="cell rock" x="1332" y="144" />
-  <rect class="cell rock" x="1332" y="180" />
-  <rect class="cell rock" x="1332" y="216" />
-  <rect class="cell rock" x="1332" y="252" />
-  <rect class="cell rock" x="1332" y="288" />
+  <rect class="cell room" x="1332" y="180" />
+  <rect class="cell room" x="1332" y="216" />
+  <rect class="cell room" x="1332" y="252" />
+  <rect class="cell room" x="1332" y="288" />
   <rect class="cell room" x="1332" y="324" />
-  <rect class="cell room" x="1332" y="360" />
-  <rect class="cell room" x="1332" y="396" />
-  <rect class="cell corridor" x="1332" y="432" />
-  <rect class="cell corridor" x="1332" y="468" />
+  <rect class="cell rock" x="1332" y="360" />
+  <rect class="cell rock" x="1332" y="396" />
+  <rect class="cell rock" x="1332" y="432" />
+  <rect class="cell rock" x="1332" y="468" />
   <rect class="cell rock" x="1332" y="504" />
   <rect class="cell rock" x="1332" y="540" />
   <rect class="cell rock" x="1332" y="576" />
@@ -815,20 +817,19 @@
   <rect class="cell corridor" x="1332" y="684" />
   <rect class="cell rock" x="1332" y="720" />
   <rect class="cell rock" x="1368" y="0" />
-  <rect class="cell rock" x="1368" y="36" />
+  <rect class="cell corridor" x="1368" y="36" />
   <rect class="cell rock" x="1368" y="72" />
-  <rect class="cell corridor" x="1368" y="108" />
+  <rect class="cell rock" x="1368" y="108" />
   <rect class="cell rock" x="1368" y="144" />
   <rect class="cell rock" x="1368" y="180" />
   <rect class="cell rock" x="1368" y="216" />
-  <rect class="cell corridor" x="1368" y="252" />
-  <rect class="cell corridor" x="1368" y="288" />
-  <rect class="cell room" x="1368" y="324" />
-  <line class="door open" x1="1377" y1="333" x2="1395" y2="333" />
-  <rect class="cell room" x="1368" y="360" />
-  <rect class="cell room" x="1368" y="396" />
+  <rect class="cell rock" x="1368" y="252" />
+  <rect class="cell rock" x="1368" y="288" />
+  <rect class="cell rock" x="1368" y="324" />
+  <rect class="cell rock" x="1368" y="360" />
+  <rect class="cell rock" x="1368" y="396" />
   <rect class="cell rock" x="1368" y="432" />
-  <rect class="cell corridor" x="1368" y="468" />
+  <rect class="cell rock" x="1368" y="468" />
   <rect class="cell rock" x="1368" y="504" />
   <rect class="cell rock" x="1368" y="540" />
   <rect class="cell rock" x="1368" y="576" />
@@ -837,18 +838,18 @@
   <rect class="cell corridor" x="1368" y="684" />
   <rect class="cell rock" x="1368" y="720" />
   <rect class="cell rock" x="1404" y="0" />
-  <rect class="cell rock" x="1404" y="36" />
-  <rect class="cell rock" x="1404" y="72" />
+  <rect class="cell corridor" x="1404" y="36" />
+  <rect class="cell corridor" x="1404" y="72" />
   <rect class="cell corridor" x="1404" y="108" />
   <rect class="cell corridor" x="1404" y="144" />
   <rect class="cell corridor" x="1404" y="180" />
   <rect class="cell corridor" x="1404" y="216" />
   <rect class="cell corridor" x="1404" y="252" />
-  <rect class="cell rock" x="1404" y="288" />
-  <rect class="cell room" x="1404" y="324" />
-  <rect class="cell room" x="1404" y="360" />
-  <rect class="cell room" x="1404" y="396" />
-  <rect class="cell rock" x="1404" y="432" />
+  <rect class="cell corridor" x="1404" y="288" />
+  <rect class="cell corridor" x="1404" y="324" />
+  <rect class="cell corridor" x="1404" y="360" />
+  <rect class="cell corridor" x="1404" y="396" />
+  <rect class="cell corridor" x="1404" y="432" />
   <rect class="cell corridor" x="1404" y="468" />
   <rect class="cell corridor" x="1404" y="504" />
   <rect class="cell corridor" x="1404" y="540" />
@@ -878,17 +879,15 @@
   <rect class="cell rock" x="1440" y="648" />
   <rect class="cell rock" x="1440" y="684" />
   <rect class="cell rock" x="1440" y="720" />
-  <text x="507.6000061035156" y="594">5</text>
-  <text x="75.60000610351562" y="594">2</text>
-  <text x="939.5999755859375" y="90">11</text>
-  <text x="75.60000610351562" y="90">1</text>
-  <text x="579.5999755859375" y="378">6</text>
-  <text x="579.5999755859375" y="162">7</text>
   <text x="1011.5999755859375" y="522">9</text>
-  <text x="1227.5999755859375" y="234">12</text>
-  <text x="291.6000061035156" y="378">3</text>
-  <text x="867.5999755859375" y="594">8</text>
-  <text x="291.6000061035156" y="90">4</text>
-  <text x="939.5999755859375" y="378">10</text>
-  <text x="1371.5999755859375" y="378">13</text>
+  <text x="1227.5999755859375" y="450">10</text>
+  <text x="1155.5999755859375" y="234">11</text>
+  <text x="651.5999755859375" y="162">4</text>
+  <text x="75.60000610351562" y="306">1</text>
+  <text x="579.5999755859375" y="306">5</text>
+  <text x="867.5999755859375" y="594">7</text>
+  <text x="795.5999755859375" y="90">8</text>
+  <text x="579.5999755859375" y="594">6</text>
+  <text x="291.6000061035156" y="90">3</text>
+  <text x="147.60000610351562" y="522">2</text>
 </svg>
