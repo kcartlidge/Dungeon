@@ -43,6 +43,16 @@ public class Config
     public string RoomTriesText { get; set; } = "default";
 
     /// <summary>
+    /// Gets or sets whether the 3D model has extra flooring.
+    /// </summary>
+    public bool HasExtraFloor { get; set; } = false;
+
+    /// <summary>
+    /// Gets or sets whether the 3D model has a closed ceiling.
+    /// </summary>
+    public bool HasRoof { get; set; } = false;
+
+    /// <summary>
     /// Parses command line arguments to create a configuration instance.
     /// </summary>
     /// <param name="args">The command line arguments to parse.</param>
@@ -59,6 +69,8 @@ public class Config
             .SupportsOption<int>("cellsize", "Size of each cell in pixels", 32)
             .SupportsOption<string>("rooms", "Rough room frequency", "default")
             .RequiresOption<string>("filename", "Output filename", "dungeon.svg")
+            .SupportsFlag("3d-floor", "The 3D model is sealed with extra flooring")
+            .SupportsFlag("3d-roof", "The 3D model is sealed with a roof")
             .AddCustomValidator("width", (name, value) => ((int)value) < 13 ? new List<string> { "Width must be at least 13" } : new List<string>())
             .AddCustomValidator("height", (name, value) => ((int)value) < 13 ? new List<string> { "Height must be at least 13" } : new List<string>())
             .AddCustomValidator("cellsize", (name, value) => ((int)value) < 24 ? new List<string> { "Cell size must be at least 24 pixels" } : new List<string>())
@@ -88,6 +100,8 @@ public class Config
         config.Height = parser.GetOption<int>("height");
         config.CellSize = parser.GetOption<int>("cellsize");
         config.Filename = parser.GetOption<string>("filename");
+        config.HasRoof = parser.IsFlagProvided("3d-roof");
+        config.HasExtraFloor = parser.IsFlagProvided("3d-floor");
 
         config.RoomTriesText = parser.GetOption<string>("rooms");
         var roomAdjustment = roomValues[config.RoomTriesText];
@@ -111,12 +125,14 @@ public class Config
     {
         Console.WriteLine();
         Console.WriteLine("Configuration:");
-        Console.WriteLine($"  Seed      : {Seed}");
-        Console.WriteLine($"  Width     : {Width}");
-        Console.WriteLine($"  Height    : {Height}");
-        Console.WriteLine($"  Cell Size : {CellSize}");
-        Console.WriteLine($"  Filename  : {Filename}");
-        Console.WriteLine($"  Rooms     : {RoomTriesText}");
+        Console.WriteLine($"  Seed        : {Seed}");
+        Console.WriteLine($"  Filename    : {Filename}");
+        Console.WriteLine($"  Width       : {Width}");
+        Console.WriteLine($"  Height      : {Height}");
+        Console.WriteLine($"  Cell Size   : {CellSize}");
+        Console.WriteLine($"  Rooms       : {RoomTriesText}");
+        Console.WriteLine($"  Roof        : {HasRoof}");
+        Console.WriteLine($"  Extra Floor : {HasExtraFloor}");
         Console.WriteLine();
     }
 }

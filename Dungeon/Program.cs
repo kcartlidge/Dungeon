@@ -17,11 +17,26 @@ class Program
             var config = Config.ParseArgs(args);
             config.Display();
 
-            // Generate grid and write SVG file.
+            // Generate grid
             var grid = Generator.Generate(config);
+
+            // Render SVG
             RenderSVG.ToFile(grid, config);
+            Console.WriteLine();
             Console.WriteLine("Generated SVG file:");
-            Console.WriteLine(Path.GetFullPath( config.Filename));
+            Console.WriteLine(Path.GetFullPath(config.Filename));
+
+            // Render OBJ
+            RenderOBJ.ToFile(grid, config);
+            Console.WriteLine();
+            Console.WriteLine("Generated OBJ file:");
+            Console.WriteLine(Path.GetFullPath(Path.ChangeExtension(config.Filename, ".obj")));
+
+            // Render JSON
+            RenderJSON.ToFile(grid, config);
+            Console.WriteLine();
+            Console.WriteLine("Generated JSON file:");
+            Console.WriteLine(Path.GetFullPath(Path.ChangeExtension(config.Filename, ".json")));
         }
         catch (Exception ex)
         {

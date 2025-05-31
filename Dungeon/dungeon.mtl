@@ -1,0 +1,37 @@
+# Dungeon MTL File
+newmtl room_floor
+Kd 0.765 0.765 0.765
+d 1.0
+illum 1
+newmtl corridor_floor
+Kd 0.51000005 0.51000005 0.51000005
+d 1.0
+illum 1
+newmtl room_wall
+Kd 0.71999997 0.71999997 0.71999997
+d 1.0
+illum 1
+newmtl corridor_wall
+Kd 0.48000002 0.48000002 0.48000002
+d 1.0
+illum 1
+newmtl rock
+Kd 0.2 0.2 0.2
+d 1.0
+illum 1
+newmtl door_wall
+Kd 0.7 0.4 0.2
+d 1.0
+illum 1
+newmtl light_rock
+Kd 0.35 0.35 0.35
+d 1.0
+illum 1
+newmtl outer_rock
+Kd 0.35 0.35 0.35
+d 1.0
+illum 1
+newmtl roof
+Kd 0.765 0.765 0.765
+d 1.0
+illum 1

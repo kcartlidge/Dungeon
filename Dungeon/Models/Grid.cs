@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace Dungeon.Models;
 
@@ -25,6 +26,11 @@ public class Grid
     /// Gets the list of rooms in the dungeon.
     /// </summary>
     public IReadOnlyList<Room> Rooms => _rooms;
+
+    /// <summary>
+    /// Gets a list of all cells in the grid.
+    /// </summary>
+    public IReadOnlyList<Cell> Cells => GetAllCells().ToList();
 
     /// <summary>
     /// Initializes a new instance of the <see cref="Grid"/> class with the specified dimensions.
